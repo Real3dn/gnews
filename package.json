@@ -1,0 +1,30 @@
+{
+  "name": "google-news-cli",
+  "version": "1.0.0",
+  "description": "A terminal CLI application to fetch and search Google News.",
+  "type": "module",
+  "main": "src/bin.js",
+  "bin": {
+    "gnews": "./src/bin.js"
+  },
+  "scripts": {
+    "start": "node src/bin.js"
+  },
+  "keywords": [
+    "google-news",
+    "cli",
+    "news",
+    "rss",
+    "terminal"
+  ],
+  "author": "Antigravity",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "open": "^10.1.0",
+    "ora": "^8.0.1",
+    "picocolors": "^1.0.1",
+    "prompts": "^2.4.2",
+    "rss-parser": "^3.13.0"
+  }
+}
